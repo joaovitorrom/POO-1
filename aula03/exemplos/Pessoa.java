@@ -43,6 +43,10 @@ public class Pessoa {
         
         p1.impDados();
         p2.impDados();
+
+        int k = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        System.out.println("\nSOMA: "+(a+b));
     }
 
     public void entDados(int a, String b) {
